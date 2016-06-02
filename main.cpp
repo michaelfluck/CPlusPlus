@@ -1,7 +1,9 @@
 #include <QCoreApplication>
 #include <iostream>
+#include "funktionen.h"
 
 using namespace std; //unqualifizierte Namen können im Namensbereich std liegen (z.B. cout)
+
 
 int main(int argc, char *argv[])
 {
@@ -57,6 +59,8 @@ int main(int argc, char *argv[])
         cout << i << endl;
     }
 
+    //Funktion aufrufen
+    cout << zahl(98) << endl;
 
     return a.exec();
 }
